@@ -18,6 +18,11 @@
   .links {
     display: none;
   }
+  .menuButton {
+    display: block;
+    cursor: pointer;
+  }
+
   .mobileLinks {
     position: absolute;
     top: 100px;
