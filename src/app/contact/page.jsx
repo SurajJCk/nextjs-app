@@ -1,6 +1,9 @@
+"use client";
 import Image from "next/image";
 import styles from "./contact.module.css";
 const ContactPage = () => {
+  console.log("it works here!");
+
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer}>
@@ -18,7 +21,7 @@ const ContactPage = () => {
             rows="10"
             placeholder="Message"
           ></textarea>
-          <button>Send</button>
+          <button onClick={() => console.log("clicked")}>Send</button>
         </form>
       </div>
     </div>
